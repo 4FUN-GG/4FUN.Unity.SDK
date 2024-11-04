@@ -1,0 +1,12 @@
+{
+    "name": "gg.4fun.sdk",
+    "version": "1.0.0",
+    "displayName": "4FUN.gg Table SDK",
+    "description": "Provides all functions needed to create a table game.",
+    "unity": "2019.0",
+    "author": {
+        "name": "Maufeat",
+        "email": "sahyno1996@gmail.com",
+        "url": "https://4fun.gg/"
+    }
+}
