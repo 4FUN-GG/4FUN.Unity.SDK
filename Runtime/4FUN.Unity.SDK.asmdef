@@ -1,0 +1,22 @@
+{
+    "name": "4FUN.Unity.SDK",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Swan.Lite.dll",
+        "EmbedIO.dll",
+        "System.Drawing.Common.dll",
+        "QRCoder.dll",
+        "QRCoder.Unity.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

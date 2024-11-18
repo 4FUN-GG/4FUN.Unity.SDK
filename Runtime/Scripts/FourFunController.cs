@@ -190,6 +190,24 @@ namespace FourFun
         }
 
         /// <summary>
+        /// Sends Highscore to GameServer.
+        /// </summary>
+        public void SetHighscore(int player, int score)
+        {
+            if (gameServerInstance == null)
+                return;
+
+            try
+            {
+                gameServerInstance?.SetHighscore(player, score);
+            }
+            catch (UnityException exception)
+            {
+                Debug.LogError($"{this} - {exception.Message}");
+            }
+        }
+
+        /// <summary>
         /// Resets delegate references to prevent memory leaks.
         /// </summary>
         private void ResetDelegates()
